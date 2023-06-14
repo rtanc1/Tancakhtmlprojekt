@@ -19,6 +19,33 @@
 <li> <a href="index.html"> Home page </a> </li>
 <li> <a href="video.html"> Projektni video </a> </li>
 <li> <a href="stil.css"> Stil </a> </li>
+  	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+	/*nesistemski font*/
+	@font-face {
+    font-family: "CabinSketch";
+    src:url("CabinSketch-Regular.ttf");
+	}
+	ul {	padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: auto;
+			} 
+	li {	display:inline; 
+			background-color:pink;
+			padding:20px;
+			border: 2px solid purple;
+		}
+	li:active {background-color:purple;} 
+		
+	li a {	color:white; 
+			font-family: "Montserrat", sans-serif; 
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+	
+	</style>
 </ul></nav>
 </body>
 </html>
